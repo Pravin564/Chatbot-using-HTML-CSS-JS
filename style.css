@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Poppins:wght@200;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  height: 500px;
+  right: 500px;
+    bottom: 100px;
+    width: 500px;
+  position: fixed;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px black;
+}
+.chat-header {
+  height: 60px;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(48, 2, 100);
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+  font-size: 1.5rem;
+  
+}
+
+.chat-header .logo {
+  height: 35px;
+  width: 35px;
+  box-shadow: 0px 0px 10px 0px black;
+}
+.chat-header img {
+  height: 100%;
+  width: 100%;
+}
+
+.chat-body {
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 10px;
+  align-items: flex-end;
+  background: #029dc4;
+  border-radius: 0px 0px 0px 10px;
+  overflow-y: auto;
+}
+.chat-input {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border-top: 1px solid #9052b4;
+  background: #9052b4;
+  color: white;
+}
+.input-sec {
+  flex: 9;
+  color: white;
+}
+.send {
+  flex: 1;
+  padding-right: 4px;
+}
+#txtInput {
+  line-height: 30px;
+  padding: 8px 10px;
+  font-size: 1rem;
+  width: 100%;
+  background: #9052b4 white;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.chatbot-message,
+.user-message {
+  padding: 8px;
+  background: white;
+  margin: 5px;
+  width: fit-content;
+  border-radius: 10px 3px 10px 10px;
+}
+.chatbot-message {
+  background: #0652c0;
+  color: whitesmoke;
+  align-self: baseline;
+  border-radius: 10px 10px 3px 10px;
+}
+
+h3 {
+  text-align: center;
+  position: relative;
+  font: weight 10px;
+}
